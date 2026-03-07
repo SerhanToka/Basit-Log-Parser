@@ -21,7 +21,7 @@ basarisiz_loglar, basarisiz_ipler = log_analiz_et(log_listesi=veritabani_loglari
 basarili_loglar, basarili_ipler = log_analiz_et(log_listesi=veritabani_loglari, hedef_durum="success")
 
 while True:
-    secim = input("Goruntulemek istediginiz verinin numarasini yaziniz: (1)Basarili Loglar ve IP'ler, (2)Basarisiz Loglar ve IP'ler, (3)Tumu, (q)Cikis")
+    secim = input("Goruntulemek istediginiz verinin numarasini yaziniz (1)Basarili Loglar ve IP'ler, (2)Basarisiz Loglar ve IP'ler, (3)Tumu, (q)Cikis: ")
 
     if secim == "1":
         print(f"Basarili Log Sayisi: {basarili_loglar}, Basarili IP'ler: {basarili_ipler}")
